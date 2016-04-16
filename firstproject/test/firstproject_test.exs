@@ -5,4 +5,8 @@ defmodule FIRSTPROJECTTest do
   test "the truth" do
     assert 1 + 1 == 2
   end
+
+  test "the not truth" do
+    assert true != false
+  end
 end
